@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>Trellis Holdings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"></style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <div id="event-details" class="time"></div>
+    <script>
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const eventLocation = "Cleveland, OH";
+        const eventDate = new Date();
+        const formattedDate = eventDate.toLocaleDateString('en-US', options);
+
+        const eventString = `${eventLocation} | ${formattedDate}`;
+        document.getElementById("event-details").innerText = eventString;
+    </script>
+  <section class="text-hero">
+    <h1>Trellis Holdings</h1>
+    <h2>Trellis Holdings aims to buy 8 cash-flowing properties in the Cleveland area by 2030, focusing on distressed properties that can be turned into Section 8 housing.</h2>
+  </section>
+  <section class="properties">
+    <div class="single">
+      <h3><a href="https://www.google.com/maps/place/3409+W+86th+St,+Cleveland,+OH+44102/@41.4609535,-81.7435127,16z/data=!4m6!3m5!1s0x8830ee28e4765b23:0xa313a5dc395f443b!8m2!3d41.4609535!4d-81.7435127!16s%2Fg%2F11cpmjn1k9">3409 West 86th Street</a></h3>
+      <p>We toured this property on October 7<sup>th</sup>, 2024, and successfully closed with an all-cash offer in 10 days. This property is currently undergoing renovations.</p>
+    </div>
+  </section>
+</body>
+</html>

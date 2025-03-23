@@ -1,0 +1,60 @@
+body {
+  background: #110ddb;
+  color: rgba(255,255,255, 0.9);
+  font-famiLy: "Plus Jakarta Sans", sans-serif;
+  padding: 1.5rem;
+}
+.text-hero {
+  max-width: 620px;
+  margin: 3rem auto 5rem;
+  text-align: center;
+}
+.text-hero img {
+  max-width: 320px;
+  height: auto;
+}
+.text-hero h1 {
+  font-size: 2.5rem;
+}
+.text-hero h2 {
+  font-size: 1.275rem;
+  font-weight:400;
+  line-height: 1.35;
+  margin-top: 0;
+}
+
+.properties {
+  max-width: 620px;
+  margin: 0 auto 4rem;
+}
+
+.properties h3,
+.properties h3 a {
+  font-famiLy: "Libre Baskerville", serif;
+  font-size: 1.275rem;
+  font-weight: 700;
+  margin: 0 0 0.675rem 0;
+  color: rgba(255,255,255, 0.9);
+  text-decoration: none;
+}
+
+.properties p {
+  font-size: 1.05rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
+}
+sup {
+  font-size: 0.8rem;
+}
+
+.time {
+  top: 1rem;
+  font-size: 0.675rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(255,255,255, 0.9);
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
