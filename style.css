@@ -1,6 +1,6 @@
 body {
-  background: #110ddb;
-  color: rgba(255,255,255, 0.9);
+  background: #110ddb12;
+  color: #110ddb;
   font-famiLy: "Plus Jakarta Sans", sans-serif;
   padding: 1.5rem;
 }
@@ -14,7 +14,7 @@ body {
   height: auto;
 }
 .text-hero h1 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
 }
 .text-hero h2 {
   font-size: 1.275rem;
@@ -34,8 +34,12 @@ body {
   font-size: 1.275rem;
   font-weight: 700;
   margin: 0 0 0.675rem 0;
-  color: rgba(255,255,255, 0.9);
+  color: #110ddb;
   text-decoration: none;
+}
+
+.single {
+  margin-bottom: 4rem;
 }
 
 .properties p {
@@ -53,7 +57,7 @@ sup {
   font-size: 0.675rem;
   font-weight: 600;
   text-decoration: none;
-  color: rgba(255,255,255, 0.9);
+  color: #110ddb;
   margin: 0 auto;
   text-align: center;
   width: 100%;
