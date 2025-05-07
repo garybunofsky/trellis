@@ -1,6 +1,6 @@
 body {
-  background: #110ddb12;
-  color: #110ddb;
+  background: #0d0101;
+  color: #ffffff;
   font-famiLy: "Plus Jakarta Sans", sans-serif;
   padding: 1.5rem;
 }
@@ -14,9 +14,11 @@ body {
   height: auto;
 }
 .text-hero h1 {
+  font-famiLy: "Libre Baskerville", serif;
   font-size: 4.5rem;
 }
 .text-hero h2 {
+  font-famiLy: "Libre Baskerville", serif;
   font-size: 1.275rem;
   font-weight:400;
   line-height: 1.35;
@@ -34,7 +36,7 @@ body {
   font-size: 1.275rem;
   font-weight: 700;
   margin: 0 0 0.675rem 0;
-  color: #110ddb;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -43,7 +45,7 @@ body {
 }
 
 .properties p {
-  font-size: 1.05rem;
+  font-size: .95rem;
   font-weight: 400;
   margin: 0;
   line-height: 1.5;
@@ -57,7 +59,7 @@ sup {
   font-size: 0.675rem;
   font-weight: 600;
   text-decoration: none;
-  color: #110ddb;
+  color: #ffffff90;
   margin: 0 auto;
   text-align: center;
   width: 100%;
