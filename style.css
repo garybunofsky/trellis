@@ -4,9 +4,15 @@ body {
   font-famiLy: "Plus Jakarta Sans", sans-serif;
   padding: 1.5rem;
 }
+.logo {
+  max-width: 120px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
 .text-hero {
   max-width: 620px;
-  margin: 3rem auto 5rem;
+  margin: 8rem auto 9rem;
   text-align: center;
 }
 .text-hero img {
@@ -19,7 +25,7 @@ body {
 }
 .text-hero h2 {
   font-famiLy: "Libre Baskerville", serif;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight:400;
   line-height: 1.35;
   margin-top: 0;
@@ -51,9 +57,12 @@ body {
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
+  background: #f6f1ee;
+  padding: 1.5rem;
+  border-radius: 10px;
 }
 .single img {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .properties p {
